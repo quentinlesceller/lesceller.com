@@ -7,3 +7,16 @@
 #
 layout: home
 ---
+
+# About Me
+Applied Cryptography Researcher. Grin Core Developer.
+
+I am currently working at [BlockCypher](https://blockcypher.com/).
+
+# Research Interests
+Here is a non exhautive list of my research interests:
+* Cryptography
+* Privacy
+* Cybersecurity
+* Bitcoin/Blockchain
+* Cryptocurrencies
