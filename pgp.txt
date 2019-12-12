@@ -1,6 +1,6 @@
 ---
 layout: none
-permalink: qls.asc
+permalink: pgp.txt
 ---
 
 -----BEGIN PGP PUBLIC KEY BLOCK-----
