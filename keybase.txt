@@ -1,0 +1,75 @@
+==================================================================
+https://keybase.io/quentinlesceller
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://lesceller.com
+  * I am quentinlesceller (https://keybase.io/quentinlesceller) on keybase.
+  * I have a public key with fingerprint FC02 6616 3E51 8225 8D07  3E53 DEA8 6EB7 0675 71D4
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "01200d9bd10f867a431cb576d841e139f232d0866bca248f31886c5ee79860c64f740a",
+      "fingerprint": "fc0266163e5182258d073e53dea86eb7067571d4",
+      "host": "keybase.io",
+      "key_id": "dea86eb7067571d4",
+      "kid": "01010e2be96b6de66bcbc8bcf6433097a23434d5f58b8ec6b7fb1a9fccd83c59ace00a",
+      "uid": "08e1b2a533357e56df4ad1f051fb6619",
+      "username": "quentinlesceller"
+    },
+    "service": {
+      "hostname": "lesceller.com",
+      "protocol": "http:"
+    },
+    "type": "web_service_binding",
+    "version": 1
+  },
+  "ctime": 1520432252,
+  "expire_in": 157680000,
+  "prev": "8d683eebf77fccb6be2c557f44d16ad4ac669ea71ebedb6dd5aa451422c83b93",
+  "seqno": 16,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.0.76
+Comment: https://keybase.io/crypto
+
+yMNxAnicbVJtUFRVGAaEdaRsNzRwUEhvhTtBeD/PvbuT1YwayYgTgRNJuHPvPefi
+hWV32S++JBQRxGRwGkqagRXNgmZQtgmEosmhWG2kKAOKmESyUAZiLJZGxhzoXNJ+
+dc6P8/E+73Oe5z1v/+oVIZGh4222bp2ncDh0oK/FE7L31PyBMkKywxLCXEbko+UF
+WSFyuS35KiTMBEnRJAlNEqRIRQC8yDKULHE8gAJLIYoxKTRDQ1IAQJJFmhUUhhIE
+IHMI8SYBkDJgFZ4lRSKJUFRbLnI6nKrNjWkVmaQBoACDOEqgaU6AJI/3DESiAJDE
+k4DneAqyOHG/3aVlYHGS6ELJqh3f4YNlWd7/4B/oxhPREjIBCUCk6ZNkQZIVwDIM
+aeJFmmEZFnIKJ0gCkoHEKxIlmhRZhgIjcyZRRuSybs+/dAKiJFrkGIbheMQBqLAi
+pBSSoxQJ+zBpQBdy2sQChNGFHmRzqzYrcsnIakVOojyJwFGvKiOtwJqj+8j/IMmy
+vQCTOJx2t122W3Fov9vtMGuZ7hKHBi1CkuU+iUVSbRDXEyd4kdOl2m2EmcJI2a1q
+rBRHkyyDq0onEajYoTqRRdUQ+NsEEg/tGeTFlAIEAoOQpPA8Ni4BCdEyx/EKy0IK
+iJAVZQBMSOQpJCGIywg5UWQ5iqVpWWAkE0NotgptdswNsE4xF3O61Fyb6PY4EVH+
+Rd/r4SGhkSG6iDCt0UIiVxketF9Lrn7ptfeWPgmtOPj+T3GmsvY/i2M+1YNjh/sy
+j27+teL4D3dKqYT1L1W1+qSZtzqHdnRU510o6n4mzDqRJze/GnvqLjN3Yl2aLl0N
+tndmXB14YWKx/uHUlX6fPublW1s/m6ziyxt+yezaWFsZLs4aov+OdXX/WJnuvr4u
+YW3jVFdL2Zb6qOTt3g6/WXd2kG680kM+9/zdgPC0MW202/dsSddTZ4L3fNFDe4+9
+syF7a6Buy9utN/03DWdvUTH1lT8fMl5bGDGrw/7dbYlpJ5KPFh3qPjibOnop/ff2
+2yefbOuIyK9MS4lcKmCyDZ8XwMXEwEc73xxv++DrA9aG7xedQs2R76x5CYaB8G83
+BmN0A1kvprwS3zK8qynHe7pmqsawao1R3+Sd+Pj43OPjAYrZRUVF1daHbfJHXCle
+yBq6NiYq565e9OTv8elqb0w/krK9P7+0VIxAzYc7MuuMOYMtM+frA+FVhed7QzKa
+1ly809DPRsvN8dsMGaevF/pHBi+/ceOxr4ycsGN87JuaFZasIrly6oJ3Otw8+US2
+eSoORgaj2C9H0jsdcX+4S5K2pe6m+PnG0qiR3obq2IB/j5XTGwHvq65999HEunkd
+XP+b9dz07bHe4JnWk/r4S1MP7ZRqjWrYau9McDjzcs6mfc65uoqeBf+9IyvFng2T
+f432xW0eW5u9cRbt+7D1H1zkxMk=
+=LF3G
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/quentinlesceller
+
+==================================================================
