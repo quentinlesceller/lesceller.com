@@ -4,7 +4,7 @@ title: Research
 permalink: /research/
 ---
 
-This page gathers talked I gave and research papers I published.
+This page gathers talks I gave and research papers I published.
 
 # Talks
 
