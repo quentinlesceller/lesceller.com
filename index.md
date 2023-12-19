@@ -10,12 +10,12 @@ title: Home
 ---
 
 # About Me
-Applied Cryptography Researcher. Grin Core Developer.
+Senior Software Engineer. 
 
-I am currently working at [BlockCypher](https://blockcypher.com/).
+I am currently working for [Coinbase](https://coinbase.com/).
 
 # Research Interests
-Here is a non exhautive list of my research interests:
+Here is a non exhaustive list of my research interests:
 * Cryptography
 * Privacy
 * Cybersecurity
