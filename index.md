@@ -10,7 +10,7 @@ title: Home
 ---
 
 # About Me
-Senior Software Engineer. 
+Staff Software Engineer. 
 
 I am currently working for [Coinbase](https://coinbase.com/).
 
