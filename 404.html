@@ -1,24 +1,44 @@
----
-layout: default
----
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>404 · Quentin Le Sceller</title>
+  <meta name="robots" content="noindex">
+  <meta name="theme-color" media="(prefers-color-scheme: light)" content="#fafafc">
+  <meta name="theme-color" media="(prefers-color-scheme: dark)" content="#0c0e13">
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/assets/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="wrap">
+      <a class="monogram" href="/" aria-label="Home">QL</a>
+      <nav class="site-nav" aria-label="Site">
+        <a href="/">home</a>
+        <a href="/research/">research</a>
+        <a href="/pgp.txt">pgp</a>
+      </nav>
+    </div>
+  </header>
 
-<style type="text/css" media="screen">
-  .container {
-    margin: 10px auto;
-    max-width: 600px;
-    text-align: center;
-  }
-  h1 {
-    margin: 30px 0;
-    font-size: 4em;
-    line-height: 1;
-    letter-spacing: -1px;
-  }
-</style>
+  <main>
+    <div class="wrap center">
+      <p class="term"><span class="prompt">~ $</span> <span class="cmd" data-type>gpg --decrypt page.asc</span></p>
+      <h1 data-scramble>404</h1>
+      <p class="term-out">gpg: decryption failed: No such page</p>
+      <p style="margin-top: 1.5rem;"><a class="more-link" href="/">← attempt recovery</a></p>
+    </div>
+  </main>
 
-<div class="container">
-  <h1>404</h1>
-
-  <p><strong>Page not found :(</strong></p>
-  <p>The requested page could not be found.</p>
-</div>
+  <footer class="site-footer">
+    <div class="wrap">
+      <div class="row">
+        <span>© 2026 Quentin Le Sceller</span>
+        <span><a href="/pgp.txt">PGP key</a> · <a href="/keybase.txt">Keybase</a></span>
+      </div>
+    </div>
+  </footer>
+  <script src="/assets/app.js" defer></script>
+</body>
+</html>
