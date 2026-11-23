@@ -3,63 +3,7 @@
   'use strict';
 
   const reduced = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
-  const GLYPHS = '!<>-_\\/[]{}=+*^?#₿ΞΔΣ0123456789ABCDEF';
   const rand = (n) => Math.floor(Math.random() * n);
-
-  /* Decrypt-style text scramble */
-  function scramble(el, duration = 900) {
-    const text = el.dataset.text || (el.dataset.text = el.textContent);
-    if (reduced) { el.textContent = text; return Promise.resolve(); }
-    if (el.busy) return Promise.resolve();
-    el.busy = true;
-    const chars = [...text];
-    const frames = Math.max(1, Math.round(duration / 16.7));
-    let frame = 0;
-    return new Promise((resolve) => {
-      const tick = () => {
-        const t = Math.min(++frame / frames, 1);
-        el.textContent = chars
-          .map((ch, i) => {
-            if (ch === ' ') return ' ';
-            return t >= ((i + 1) / chars.length) * 0.85 ? ch : GLYPHS[rand(GLYPHS.length)];
-          })
-          .join('');
-        if (t < 1) return requestAnimationFrame(tick);
-        el.textContent = text;
-        el.busy = false;
-        resolve();
-      };
-      requestAnimationFrame(tick);
-    });
-  }
-
-  /* Typewriter */
-  function type(el, speed = 50) {
-    const text = el.dataset.text || (el.dataset.text = el.textContent);
-    if (reduced) return Promise.resolve();
-    el.textContent = '';
-    return new Promise((resolve) => {
-      let i = 0;
-      const step = () => {
-        el.textContent = text.slice(0, ++i);
-        if (i < text.length) setTimeout(step, speed + rand(45));
-        else resolve();
-      };
-      setTimeout(step, 350);
-    });
-  }
-
-  /* Boot sequence: type the command, then decrypt the headline */
-  const cmd = document.querySelector('[data-type]');
-  const h1 = document.querySelector('[data-scramble]');
-  (async () => {
-    if (cmd) await type(cmd);
-    if (h1) await scramble(h1);
-  })();
-  if (h1) h1.addEventListener('pointerenter', () => scramble(h1, 600));
-  document.querySelectorAll('.site-nav a').forEach((a) =>
-    a.addEventListener('pointerenter', () => scramble(a, 350))
-  );
 
   /* Rain: Konami code, or click the ツ in the footer */
   const KONAMI = ['ArrowUp', 'ArrowUp', 'ArrowDown', 'ArrowDown',

@@ -9,7 +9,7 @@ Served by GitHub Pages (`.nojekyll` disables the Jekyll pipeline).
 - `index.html`: home page
 - `research/index.html`: talks and papers
 - `assets/style.css`: the single stylesheet (light/dark via `prefers-color-scheme`)
-- `assets/app.js`: scramble/typewriter animations and easter eggs
+- `assets/app.js`: optional footer and keyboard easter egg
 - `pgp.txt`, `keybase.txt`: keys and identity proofs
 
 ## Preview locally
